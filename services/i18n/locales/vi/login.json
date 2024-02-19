@@ -1,0 +1,31 @@
+{
+  "title": "Đăng Nhập",
+  "actions": {
+    "submit": "Đăng Nhập",
+    "createAccount": "Tạo tài khoản mới",
+    "forgotPassword": "Quên mật khẩu?"
+  },
+  "inputs": {
+    "email": {
+      "label": "Email",
+      "validation": {
+        "required": "Email không được để trống",
+        "invalid": "Email không hợp lệ",
+        "server": {
+          "emailNotExists": "Email không tồn tại"
+        }
+      }
+    },
+    "password": {
+      "label": "Mật khẩu",
+      "validation": {
+        "required": "Mật khẩu không được để trống",
+        "min": "Mật khẩu phải dài trên 6 ký tự",
+        "server": {
+          "incorrectPassword": "Mật khẩu không chính xác"
+        }
+      }
+    }
+  },
+  "or": "OR"
+}

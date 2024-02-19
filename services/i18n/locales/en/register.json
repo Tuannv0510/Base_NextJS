@@ -1,0 +1,53 @@
+{
+  "title": "Sign Up",
+  "actions": {
+    "submit": "Sign Up",
+    "accountAlreadyExists": "Already have an account?"
+  },
+  "inputs": {
+    "first_name": {
+      "label": "First Name",
+      "validation": {
+        "required": "First Name is required"
+      }
+    },
+    "last_name": {
+      "label": "Last Name",
+      "validation": {
+        "required": "Last Name is required"
+      }
+    },
+    "phone": {
+      "label": "Phone",
+      "validation": {
+        "required": "Phone is required",
+        "matches": "Phone is not valid"
+      }
+    },
+    "email": {
+      "label": "Email",
+      "validation": {
+        "required": "Email is required",
+        "invalid": "Email is not valid",
+        "server": {
+          "emailAlreadyExists": "Email already exists"
+        }
+      }
+    },
+    "password": {
+      "label": "Password",
+      "validation": {
+        "required": "Password is required",
+        "min": "Password must be at least 6 characters long"
+      }
+    },
+    "password_confirmation": {
+      "label": "Password confirmation",
+      "validation": {
+        "required": "Password confirmation is required",
+        "min": "Password confirmation must be at least 6 characters long"
+      }
+    }
+  },
+  "or": "OR"
+}
